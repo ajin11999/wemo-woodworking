@@ -47,6 +47,12 @@ numbers live.
     bear directly on the floor + 1 L-bracket each. Rail is brace-duty only (worst-case
     footstep σ ≈ 9.8 MPa vs 60+ MPa MOR). ⚠️ never through-bolt the rail front-to-back
     (§4 Error 1: that drills the 4 cm face).
+  - **No front top beam / top depth ties (2026-07-09):** top bracing = wall-anchored
+    back beam + the platforms themselves (4-corner bolts tie front → back at every
+    occupied row). Unbraced-tip wobble (~2.4 cm per 5 kg bump, SF 12×, spec §11) is
+    accepted **on purpose** — it doubles as install tolerance for slightly missized
+    platforms. Don't "fix" it. Retrofit path (notched front top beam + mid-bay lap
+    ties) documented in spec §4; needs GEOMETRY §U2 pinned first.
 - **Open questions:** see §15 (section-assignment layout, bracket count, wall-anchor
   hardware, Meranti treatment).
 

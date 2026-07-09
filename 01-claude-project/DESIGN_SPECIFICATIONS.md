@@ -102,6 +102,24 @@ the width, so one bolt can serve both sides).
 - Joint to column: stepped lap joint
 - Optional T-bracket reinforcement (vertical arm along column, horizontal arm onto side beam)
 
+### Top bracing — NO front top beam, NO top depth ties *(decided 2026-07-09)*
+- The top bracing is the wall-anchored back top beam (§9) **plus the platform levels
+  themselves**: every level bolts to a front and a back column at its 4 corners, so
+  each occupied bolt row ties the front columns back to the wall-anchored frame.
+- In a bay with no high platform, the front column tips are deliberately unbraced above
+  the front rail. Checked (§11 lateral bump check): a 5 kg sideways bump at the tip
+  flexes it ≈ 2.4 cm and stresses the wood to 5.0 MPa vs 60 MPa MOR — safety factor
+  12× dry, ~8× wet. The flex is accepted, and is useful: it doubles as installation
+  tolerance, letting a column spring ±1–2 cm to engage the bolt holes of a slightly
+  missized platform.
+- **Upgrade path (documented, not built):** if top wobble ever proves objectionable in
+  use, add a front top beam (256 cm, 4 × 6, lap-notched over the front column tops —
+  columns uncut, same detail as the front rail) plus one 50 cm depth tie per bay,
+  lap-jointed onto the front and back top beams and **offset mid-bay from the columns**
+  (keeps the column-to-beam dados clean; no fastener ever near a 4 cm face). Fully
+  retrofittable without disassembly. Pin GEOMETRY.md §U2 (top-beam orientation) before
+  cutting any of it.
+
 ---
 
 ## 5. Joint Specifications
@@ -114,7 +132,7 @@ the width, so one bolt can serve both sides).
 | Column to bottom beam (outer columns) | Lap + L-bracket | Same |
 | Side beam to column | Stepped lap joint | Avoids three-way joint conflict |
 | Front rail to front columns | Rail lap-notched 2cm over column + 2 structural screws | Brace only; keeps ground zone clear for §13 unit |
-| Front beam to back beam (depth direction) | Dado at top, butt at bottom | Top critical for box frame |
+| Top depth ties (upgrade path ONLY — not built) | Lap onto front + back top beams, offset mid-bay from columns | See §4 Top bracing; retrofit only if top wobble proves objectionable |
 | Lap joint depth | Half thickness rule | 2cm into 4cm beam, or 3cm into 6cm beam |
 
 ---
@@ -243,6 +261,15 @@ the width, so one bolt can serve both sides).
 - Limit (Meranti perpendicular to grain): 5-7 MPa
 - Safety factor: ~25×
 - **Verdict**: vertical compression is NOT a concern
+
+### Lateral bump check — unbraced front column tip (no-platform bay; §4 Top bracing)
+- Case: 5 kg (50 N) sideways bump at the free tip; column cantilevers L = 160 cm above
+  the front rail (Z 40 → 200); weak axis governs (4 cm dimension along X)
+- I = b·h³/12 = 6 × 4³/12 = 32 cm⁴ = 3.2×10⁻⁷ m⁴; E = 9,000 MPa (Meranti low end)
+- Deflection: δ = PL³/3EI = (50 × 1.6³) / (3 × 9×10⁹ × 3.2×10⁻⁷) ≈ 2.4 cm (elastic, springs back)
+- Stress: M = 50 N × 1.6 m = 80 N·m; S = I/c = 16 cm³; σ = 80 / 1.6×10⁻⁵ = 5.0 MPa
+- Limit: 60 MPa MOR → safety factor 12× dry, ~8× wet (−30% humid strength)
+- **Verdict**: tip wobble is a stiffness matter only; strength is NOT a concern
 
 ---
 

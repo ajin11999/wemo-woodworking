@@ -63,6 +63,13 @@ X-axis bolt serves both sides).
 | Front rail (raised) | 0 – 256 | 4 × 6 **laid flat** (4 in Z, 6 in Y) | **Z 36 – 40** (top flush with the 40 cm bolt row), against the bay side of the front columns (≈ Y 4 – 10), lap-notched 2 cm over each column. **No floor beam at the front line** — ground stays clear for D3 | decided 2026-07-09 (spec §4); Z assumes grid datum **§U7** |
 | Side beams | Y 0 – 50 at X lines A and D | 4 × 6 | "Slightly above bottom main beam" (spec §4) — exact Z: **§U4** | **§U4** |
 
+**No front top beam / no top depth ties — by design** (decided 2026-07-09, spec §4 Top
+bracing): in a bay with no high platform the front column tips are free above the front
+rail (Z 40 → 194); each installed platform ties front → back at its bolt row. Accepted
+tip flex ≈ 2.4 cm per 5 kg bump, SF 12× (spec §11) — deliberate, doubles as platform
+install tolerance. Retrofit path (notched front top beam + mid-bay lap ties) is in spec
+§4; it depends on **§U2** (top-beam orientation).
+
 ## 3. Ground zone & rolling sprocket unit envelope (D3)
 
 The bottom of every bay is reserved for the rolling unit (spec §12 "Ground level").
