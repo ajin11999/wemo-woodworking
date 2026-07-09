@@ -6,6 +6,9 @@ Blueprints, sketches, and diagrams for the shelf system.
   cleanly in git.
 - Use descriptive names: `front-elevation.svg`, `side-elevation-holes.svg`,
   `dado-joint-detail.svg`, `t-bracket-detail.svg`, `rolling-sprocket-unit.svg`.
+- Current files: `shelf-3d-isometric.svg` (whole system, generated from
+  `../01-claude-project/GEOMETRY.md` — regenerate rather than hand-edit),
+  `desk-drawer-organizer.svg`, `mechanic-tool-cart.svg`.
 - Hand-drawn sketches or CAD exports can live here too; if they are large raster images,
   see the image-handling notes in the root `README.md`.
 

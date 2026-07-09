@@ -364,6 +364,7 @@ The following SVG blueprints have been generated:
 - T-plate detail
 - Rolling sprocket unit summary
 - Mobile mechanic tool cart (front elevation + top plan + 3-way corner-bracket detail) — `02-designs/mechanic-tool-cart.svg`
+- Whole-system 3D isometric view (derived from `GEOMETRY.md`) — `02-designs/shelf-3d-isometric.svg`
 
 These are reference documents, not part of this spec file.
 
