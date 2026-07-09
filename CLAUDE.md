@@ -29,6 +29,17 @@ locate and iterate on a specific design quickly. It is **not authoritative for n
 it points to `DESIGN_SPECIFICATIONS.md`, which always wins. When iterating on one design,
 read its card first, then the spec section it points to.
 
+**Spatial model:** `01-claude-project/GEOMETRY.md` is the single source of truth for
+**where things are** — a shared coordinate system (origin front-left-bottom, X width /
+Y depth / Z height, cm), member positions, clearance envelopes, and docking zones. For
+any question involving position, fit, clearance, or travel ("does X fit?", "what does
+it collide with?"), read it **before** reasoning spatially from the spec's prose. Its
+**§U Unresolved geometry** list is the set of spatial facts nobody has pinned yet —
+never silently assume an answer to a §U item; state that it is unresolved (and if the
+user resolves one, move the fact up into the file's numbered sections and delete the
+§U entry). The spec owns *what* things are; GEOMETRY.md owns *where*; on any overlap
+the spec wins. Diagrams in `02-designs/` are derived views of this model.
+
 ## Keeping documents in sync (important)
 
 These files reference each other, so a single fact lives in exactly one place. When a
@@ -38,7 +49,8 @@ decision changes:
   `DESIGN_SPECIFICATIONS.md`, and the constants block in `REFERENCE_DATA.md` (§10) if a
   numeric constant changed. Do not leave the two disagreeing. Then refresh the affected
   card in `DESIGN_REGISTER.md` (status / rationale / open questions) — spec first,
-  register second.
+  register second. If the decision **moves or resizes anything**, also update the
+  affected positions/envelopes in `GEOMETRY.md` (spec → geometry → register).
 - **Construction progress** → add a dated entry in `06-build-log/` (copy `TEMPLATE.md`).
 - **New material/fastener data or a corrected mistake** → `REFERENCE_DATA.md`.
 - **Diagrams** (SVG, sketches, blueprints) → `02-designs/`.
