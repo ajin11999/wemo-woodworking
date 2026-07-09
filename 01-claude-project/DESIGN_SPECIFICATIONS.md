@@ -16,7 +16,7 @@
 | Depth | 50 cm | Front to back |
 | Height | 200 cm | Floor to top of beam |
 | Number of sections | 3 | Side by side |
-| Number of columns total | 6 | 4 outer + 2 inner shared |
+| Number of columns total | 8 | 4 column lines × (front + back pair); inner lines shared |
 
 ---
 
@@ -44,13 +44,18 @@
 |---|---|---|
 | Cross section | 4 × 6 cm | Already purchased |
 | Length | 200 cm | Full height |
-| Number | 6 | 4 outer + 2 inner shared between sections |
+| Number | 8 | 4 lines × (front + back); inner lines shared between sections |
 | Hole diameter | 8 mm | For M8 bolts |
 | Hole spacing | 10 cm | Vertical spacing along column |
 | Hole face | 6 cm face only | NOT the 4cm face |
 | Holes drilled on | Both front and back columns | For shelf level installation |
 
 **Hole positioning rule**: Holes are on the 6cm face. This leaves 2.6cm of wood on each side of the hole, providing safe margin for Meranti Putih. The 4cm face faces front (visible side).
+
+**Why 8 columns (resolved 2026-07-09)**: every level is an 80cm platform bolted at its
+4 corners, so each bay needs front AND back columns on both flanking lines. At the two
+inner lines one front/back pair is shared by the adjacent bays (the bolt axis runs along
+the width, so one bolt can serve both sides).
 
 ---
 
@@ -62,11 +67,33 @@
 - Wall anchored along full length
 - Joints to columns: dado/lap
 
-### Bottom beam (1 piece per shelf group)
+### Bottom beam — back line only (1 piece per shelf group)
 - Length: 256 cm
 - Cross section: 4 × 6 cm
-- Nailed to hard wood floor along full length (nails from below, upward through floor into beam)
-- Joints to columns: dado/lap
+- Runs along the BACK column line only; nailed to hard wood floor along full length
+  (nails from below, upward through floor into beam)
+- Joints to columns: dado/lap (captures the back column feet)
+- Front face doubles as the mounting surface for the rolling sprocket unit's rear
+  rubber bumper (§13)
+
+### Front rail — raised brace (the front line has NO floor beam) *(decided 2026-07-09)*
+- Purpose: the ground zone must stay clear so the rolling sprocket unit (§13) rolls
+  in/out on the bare floor. The rail replaces the front floor beam as the brace that
+  captures the front columns and holds the 80 cm bay gaps true (the columns are the
+  unit's side guides). It carries no shelf load — levels bolt to the columns, and the
+  columns bear straight on the floor.
+- Length: 256 cm, cross section 4 × 6 cm **laid flat** (4 cm vertical, 6 cm in depth)
+- Position: top flush with the 40 cm bolt row → underside at 36 cm, giving 3 cm
+  clearance over the parked unit (33 cm tall, §13). Confirm the hole-grid datum
+  (GEOMETRY.md §U7) before cutting; underside must stay ≥ 35 cm.
+- Fitted against the inside (bay side) of the front columns, lap-notched 2 cm over
+  each column (columns are NOT cut), fixed with 2 structural screws (~80 mm) per
+  column driven from the bay side
+- Never through-bolt front-to-back — that would drill the 4 cm face
+  (REFERENCE_DATA §4 Error 1)
+- Bonus: its top edge supports the front of the first platform level
+- Front column feet: bear directly on the hardwood floor (0.20 MPa, SF ≈ 25×, §11);
+  one L-bracket per front foot screwed to the floor (4×) for positive location
 
 ### Side beams (left and right outer edges)
 - Length: 50 cm (matches depth)
@@ -86,6 +113,7 @@
 | Column to top beam (outer columns) | Lap + L-bracket | Outer corner geometry |
 | Column to bottom beam (outer columns) | Lap + L-bracket | Same |
 | Side beam to column | Stepped lap joint | Avoids three-way joint conflict |
+| Front rail to front columns | Rail lap-notched 2cm over column + 2 structural screws | Brace only; keeps ground zone clear for §13 unit |
 | Front beam to back beam (depth direction) | Dado at top, butt at bottom | Top critical for box frame |
 | Lap joint depth | Half thickness rule | 2cm into 4cm beam, or 3cm into 6cm beam |
 
@@ -155,9 +183,11 @@
 - Anchor every 50-60cm along the beam length
 
 ### Floor anchor (bottom)
-- Bottom beam nailed to hard wood floor along full length
+- BACK bottom beam nailed to hard wood floor along full length
 - Nails from below, upward through floor into beam
 - Direction prevents nail withdrawal under load
+- Front column feet: no floor beam (see §4 front rail) — feet bear directly on the
+  floor, located by 1 L-bracket each (4×) screwed to the floor
 
 ---
 
@@ -259,6 +289,11 @@ Separate sub-design for the heaviest items (sprockets):
 | Sprocket orientation | Stand on edge in slots |
 | Organization | By motorcycle model + teeth count |
 | Dust protection | Solid bottom, top cover when closed |
+| Max sprocket diameter | 22 cm (largest in stock — owner-confirmed 2026-07-09) |
+| Unit overall height | ≤ 33 cm = caster ≤7 + bottom 1.5 + sprocket 22 + clearance 1 + cover 1.5 |
+| Caster mounting height | ≤ 7 cm overall (purchase constraint; wheel ≥5 cm still applies) |
+| Parked clearance | 3 cm under the front rail (rail underside at 36 cm, §4) |
+| Rolls on | Bare floor — no beam or rail in its path (front rail is raised, §4) |
 
 ---
 

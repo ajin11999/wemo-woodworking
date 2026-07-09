@@ -282,12 +282,19 @@ HOLE_SPACING = 10 cm
 SECTION_CLEAR_WIDTH = 80 cm
 SHELF_DEPTH = 50 cm
 NUMBER_OF_SECTIONS = 3
-NUMBER_OF_COLUMNS = 6
+NUMBER_OF_COLUMNS = 8        # 4 lines × (front + back pair); inner lines shared
 TOTAL_WIDTH = 256 cm
 MAX_LOAD_PER_LEVEL = 25 kg
 MAX_LOAD_TOTAL = 200 kg
 BOLT_SIZE = M8
 SAFETY_FACTOR_SLIDER = 0.7
+
+# Rolling sprocket unit & ground zone (D3 — §13; front rail in spec §4)
+SPROCKET_MAX_DIA = 22 cm         # largest sprocket in stock (owner-confirmed 2026-07-09)
+SPROCKET_UNIT_MAX_H = 33 cm      # caster ≤7 + bottom 1.5 + sprocket 22 + clearance 1 + cover 1.5
+CASTER_MOUNT_H_MAX = 7 cm        # D3 purchase constraint (wheel ≥5 cm)
+FRONT_RAIL_TOP = 40 cm           # flush with the 40 cm bolt row; 4×6 laid flat
+FRONT_RAIL_UNDERSIDE = 36 cm     # = ground-zone clear height; 3 cm over parked unit (min 35)
 
 # Mobile mechanic tool cart (D8 — §17) — SIMPLE PLANK BIN ON CASTERS
 CART_W = 60 cm

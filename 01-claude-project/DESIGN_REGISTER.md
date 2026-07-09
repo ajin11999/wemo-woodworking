@@ -41,6 +41,12 @@ numbers live.
     ⚠️ §4 Error 3.
   - Meranti Putih is soft → bolt-hole creep; **always spec fender washers**.
   - Vertical compression at the column feet is ~25× under limit — not a concern.
+  - **No floor beam on the front line (2026-07-09):** ground zone Z 0–36 stays clear so
+    D3 rolls on the bare floor. A **front rail** (4×6 laid flat, top flush with the
+    40 cm bolt row) lap-notched over the front columns braces them instead; front feet
+    bear directly on the floor + 1 L-bracket each. Rail is brace-duty only (worst-case
+    footstep σ ≈ 9.8 MPa vs 60+ MPa MOR). ⚠️ never through-bolt the rail front-to-back
+    (§4 Error 1: that drills the 4 cm face).
 - **Open questions:** see §15 (section-assignment layout, bracket count, wall-anchor
   hardware, Meranti treatment).
 
@@ -65,8 +71,12 @@ numbers live.
 - **Why / hard constraints:**
   - **All casters fixed, no swivel** — it travels one straight line in/out; the columns
     are its side guides. ⚠️ §4 Error 5 (swivel-wheel suggestion).
-  - Stop = friction strip + rear rubber bumper; optional slight inward floor incline.
+  - Stop = friction strip + rear rubber bumper (mounts on the back bottom beam);
+    optional slight inward floor incline.
   - Solid bottom + top cover when closed (dust).
+  - **Envelope pinned (2026-07-09):** 78 w × ~42 d × ≤33 h cm; max sprocket Ø 22 cm;
+    **caster mounting height ≤ 7 cm** (purchase constraint); rolls on the bare floor,
+    3 cm parked clearance under the front rail (spec §4 / GEOMETRY.md §3).
 - **Open questions:** none.
 
 ## D4 — Bearing storage cabinet (within one bay)
