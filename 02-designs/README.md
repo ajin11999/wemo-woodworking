@@ -9,6 +9,10 @@ Blueprints, sketches, and diagrams for the shelf system.
 - Current files: `shelf-3d-isometric.svg` (whole system, generated from
   `../01-claude-project/GEOMETRY.md` — regenerate rather than hand-edit),
   `desk-drawer-organizer.svg`, `mechanic-tool-cart.svg`.
+- `shelf-3d-viewer.html` — **offline interactive 3D viewer** (drag to rotate,
+  scroll/pinch to zoom, toggle members). Fully self-contained: open it in any
+  browser by double-clicking; no internet needed. Its box model is copied from
+  `GEOMETRY.md` — when geometry changes, regenerate both this and the SVG.
 - Hand-drawn sketches or CAD exports can live here too; if they are large raster images,
   see the image-handling notes in the root `README.md`.
 
