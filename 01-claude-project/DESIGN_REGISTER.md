@@ -35,8 +35,7 @@ numbers live.
     shelf / drawer / adapter must land on this hole pattern.
   - **Holes on the 6 cm face** (leaves safe margin each side), never the 4 cm face.
     ⚠️ §4 Error 1 (face-orientation mix-up).
-  - **Beams are continuously supported** (top wall-anchored, bottom floor-nailed, full
-    length) → they distribute load, they don't span. ⚠️ §4 Error 4.
+  - **Beams are continuously supported** (top wall-anchored, bottom secured to the floor with top-down structural screws, full length) → they distribute load, they don't span. ⚠️ §4 Error 4.
   - **Floor nails go upward from below** — gravity assists, withdrawal is a non-issue.
     ⚠️ §4 Error 3.
   - Meranti Putih is soft → bolt-hole creep; **always spec fender washers**.

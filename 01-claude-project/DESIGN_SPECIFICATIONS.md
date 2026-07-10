@@ -70,8 +70,7 @@ the width, so one bolt can serve both sides).
 ### Bottom beam — back line only (1 piece per shelf group)
 - Length: 256 cm
 - Cross section: 4 × 6 cm
-- Runs along the BACK column line only; nailed to hard wood floor along full length
-  (nails from below, upward through floor into beam)
+- Runs along the BACK column line only; secured to the hardwood floor from top-down with 5× heavy-duty structural wood screws (6.0 × 80 mm, Torx drive, zinc-plated) spaced ~50 cm. Holes are pre-drilled and counterbored 1 cm so screw heads sit below the beam's surface. No crawlspace access needed, completely reversible.
 - Joints to columns: dado/lap (captures the back column feet)
 - Front face doubles as the mounting surface for the rolling sprocket unit's rear
   rubber bumper (§13)
@@ -152,7 +151,7 @@ the width, so one bolt can serve both sides).
 - Length: minimum 1.5× wood thickness penetration
 
 ### Nails (limited use)
-- Bottom beam to floor: yes, upward direction (gravity assists)
+- Bottom beam to floor: yes, top-down structural screws (removable)
 - Other locations: avoid for structural connections
 - Used only where direction of loading favors nail holding (compression, not withdrawal)
 
@@ -201,9 +200,8 @@ the width, so one bolt can serve both sides).
 - Anchor every 50-60cm along the beam length
 
 ### Floor anchor (bottom)
-- BACK bottom beam nailed to hard wood floor along full length
-- Nails from below, upward through floor into beam
-- Direction prevents nail withdrawal under load
+- BACK bottom beam secured to the hardwood floor top-down with 5× heavy-duty structural wood screws (6.0 × 80 mm, Torx drive, zinc-plated) spaced ~50 cm
+- Fully reversible and removable without floor damage or crawlspace access
 - Front column feet: no floor beam (see §4 front rail) — feet bear directly on the
   floor, located by 1 L-bracket each (4×) screwed to the floor
 
@@ -308,7 +306,7 @@ Separate sub-design for the heaviest items (sprockets):
 | Concept | Floor-level pull-out unit with top-down access |
 | Wheels | 4× fixed casters, 50kg+ rated each, hard rubber/polyurethane, ≥5cm diameter |
 | Wheel configuration | All fixed (no swivel) |
-| Guidance | Shelf columns act as side guides; unit width = column gap - 2cm |
+| Guidance | Shelf columns act as side guides; unit width = column gap - 2cm. Inner column faces protected by sacrificial Ulin/hardwood rub strips (1.0 × 4.0 × 33 cm) with a 45° entry bevel to act as an alignment funnel |
 | Stop mechanism | Friction strip (rubber mat) + rubber bumper at back |
 | Optional | Slight floor incline inward for gravity-assisted stopping |
 | Front access | Solid pull handle, physical pull-out limit stop |

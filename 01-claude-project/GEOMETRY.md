@@ -59,7 +59,7 @@ X-axis bolt serves both sides).
 | Member | Length (X) | Section | Position | Status |
 |---|---|---|---|---|
 | Top beam | 0 – 256 | 4 × 6 | Z top band (≈194–200), at the **back** (wall-anchored, spec §9) | orientation of 4 vs 6 in Y/Z: **§U2** |
-| Back bottom beam | 0 – 256 | 4 × 6 | On the floor at the **back line** (Y 44–50 band, Z from 0); nailed full length; captures back column feet; its front face carries the D3 rear bumper | orientation of 4 vs 6: **§U2** |
+| Back bottom beam | 0 – 256 | 4 × 6 | On the floor at the **back line** (Y 44–50 band, Z from 0); secured from top-down with 5× heavy-duty structural wood screws (6.0 × 80 mm) spaced ~50 cm; captures back column feet; its front face carries the D3 rear bumper | orientation of 4 vs 6: **§U2** |
 | Front rail (raised) | 0 – 256 | 4 × 6 **laid flat** (4 in Z, 6 in Y) | **Z 36 – 40** (top flush with the 40 cm bolt row), against the bay side of the front columns (≈ Y 4 – 10), lap-notched 2 cm over each column. **No floor beam at the front line** — ground stays clear for D3 | decided 2026-07-09 (spec §4); Z assumes grid datum **§U7** |
 | Side beams | Y 0 – 50 at X lines A and D | 4 × 6 | "Slightly above bottom main beam" (spec §4) — exact Z: **§U4** | **§U4** |
 
@@ -83,7 +83,7 @@ The bottom of every bay is reserved for the rolling unit (spec §12 "Ground leve
 | First usable shelf level | — | — | bolt row at **Z = 40** | first 10 cm grid row above the ground zone; front edge rests on the rail top |
 
 **Decided 2026-07-09 (spec §4):** no floor beam at the front line — the front brace is
-the raised rail at Z 36–40; the back bottom beam stays floor-nailed as the system's
+the raised rail at Z 36–40; the back bottom beam stays secured to the floor as the system's
 floor anchor; front column feet bear directly on the floor with 1 L-bracket each. The
 unit rolls on the bare floor; its casters are **fixed (non-swivel)** and guided
 sideways by the columns (1 cm clearance per side) — no guide rail exists or is needed.

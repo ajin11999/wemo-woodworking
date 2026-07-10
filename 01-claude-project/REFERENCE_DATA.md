@@ -135,12 +135,12 @@ These are errors that have occurred in this project. Actively avoid repeating th
 
 ### Error 3: Nail withdrawal concern wrong direction
 **Wrong**: Worried that vertical column load would pull nails out of the floor-to-beam connection.
-**Correct**: Nails inserted upward from below have the head stopped by the floor. Gravity works WITH the nail, not against it. Withdrawal is not a concern in this direction.
+**Correct**: Originally suggested upward-driven floor nails. This is highly impractical and permanently locks the shelf in place. Top-down structural wood screws (6.0 × 80 mm) are now specified, providing excellent shear resistance, quick installation from above, and 100% clean reversibility.
 **Prevention**: Visualize the nail direction and the force direction before assuming withdrawal risk.
 
 ### Error 4: Treating fully-supported beam as a spanning bridge
 **Wrong**: Suggested 4×6cm beam was undersized for a 3m span, concerned about sagging.
-**Correct**: If the beam is continuously supported (nailed to floor full length, or anchored to wall full length), it doesn't span — it's a load distributor. No sagging risk because there's no unsupported span.
+**Correct**: If the beam is continuously supported (secured to floor full length with structural screws, or anchored to wall full length), it doesn't span — it's a load distributor. No sagging risk because there's no unsupported span.
 **Prevention**: Check support conditions before applying beam-sagging logic.
 
 ### Error 5: Swivel front wheels for a sliding unit
