@@ -339,11 +339,14 @@ Separate sub-design for the heaviest items (sprockets):
 - Columns = oversizes (STD, 0.25, 0.50, 0.75, 1.00)
 - Cubby size: 12cm × 10cm × 9cm (slightly larger than box)
 
-### Fastener storage
-- Smaller drawers due to weight (M10×30 bolts: ~70kg fully loaded in 5×80×50 drawer)
-- Iron adapter for heavy-duty slider mounting
-- Heavy drawers on lower levels only
-- Internal trays for clear plastic compartment organization
+### Fastener storage (Standalone Heavy-Duty Unit)
+- **Concept**: A dedicated, standalone shelving unit separate from the main M8 modular shelf.
+- **Height**: 100 cm (waist-height, acting as a sturdy top work surface).
+- **Material**: Upgraded hardwood (e.g., Bengkirai/Yellow Balau or Kapur) instead of Meranti, for superior compression and screw-holding strength under heavy static loads.
+- **Drawer Sliders**: Standard Huben ball-bearing slides (rated 35 kg per pair).
+- **Load Limit**: Applying the 0.7 cyclic safety factor, the maximum safe load per drawer is **24.5 kg** (drawer + contents).
+- **Drawer Sizing**: To stay under 24.5 kg limit with a 4 cm fill depth of bolts (packing efficiency ~45%), max drawer width is roughly 35 cm (at 40 cm slider depth). Therefore, the dedicated shelf will be built with narrower bays (e.g., 35 cm internal clear width) to naturally cap the weight per drawer.
+- **Organization**: Slotted partition drawers, labeled precisely.
 
 ### Desk-side stationary drawer organizer (standalone — NOT on the modular shelf)
 Small free-standing tool/stationery box that sits inside a 28cm-tall × 30cm-deep
