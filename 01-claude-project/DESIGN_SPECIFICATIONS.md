@@ -341,6 +341,7 @@ Separate sub-design for the heaviest items (sprockets):
 
 ### Fastener storage (Standalone Heavy-Duty Unit)
 - **Concept**: A dedicated, standalone shelving unit separate from the main M8 modular shelf.
+- **Handling**: Restricted to owner/clerk access (no mechanics). This guarantees careful slider operation without slam-shocks, validating the use of the 0.7 cyclic safety factor on the Huben sliders, and keeps greasy tools off the hardwood.
 - **Height**: 100 cm (waist-height, acting as a sturdy top work surface).
 - **Material**: Upgraded hardwood (e.g., Bengkirai/Yellow Balau or Kapur) instead of Meranti, for superior compression and screw-holding strength under heavy static loads.
 - **Drawer Sliders**: Standard Huben ball-bearing slides (rated 35 kg per pair).
